@@ -1,4 +1,4 @@
-# RideSharing_581
+# RideSharing_CS581
 ## Requirements
   - Python 3.4/3.5
   - Jupyter Notebook
@@ -20,7 +20,13 @@
   - It would take a couple of minutes to set up the server.
   - You can view the server at "Localhost:8989"
   
+### Mysql Connector installation
+  - download the mysql-connector.exe file provided
+  - Install it following the steps in the installation window
+  **note: requires python.exe path is added to system paths**
+  
 ### Pip Installations
+  - **python.exe should be added to system path**
   - Numpy Command: **python -m pip install numpy**
   - NetworkX Command: **python -m pip install networkx==1.10**
   - Json Command: **python -m pip install json**
