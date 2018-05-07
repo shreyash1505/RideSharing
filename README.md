@@ -36,4 +36,4 @@
   - Run all the cells
   - Results are printed for each pool window
   
-**An output.csv file would be genrated with total Individual distance, Shared distance, Individual Cost, Shared Cost, Single trips, Two sharing, Three Sharing and Four Sharing trips**
+**An output.csv file would be generated with total Individual distance, Shared distance, Individual Cost, Shared Cost, Single trips, Two sharing, Three Sharing and Four Sharing trips**
