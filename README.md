@@ -1,4 +1,9 @@
 # RideSharing_CS581
+ - There are many advantages of having ridesharing service in place including monetary savings to the customers, increased revenue to the company and being eco-friendly with more number of customers opting for this service than to take a personal vehicle. 
+ - However, the riders have rarely questioned about the quality of the rides that they have taken or they are about to take and neither did these companies have made a system available to the users which considers the preferences of their riders.<br>
+ - Through this project we are trying to address that lacking concept of giving importance to **rider's social preferences** by proposing a model which allows riders to specify their expectation and characteristics about fellow riders with whom he/she shares a ride. We believe this will enhance the user experience and will encourage them to choose ride sharing more often.
+
+
 ## Requirements
   - Python 3.4/3.5
   - Jupyter Notebook
