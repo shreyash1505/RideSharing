@@ -16,7 +16,9 @@
   - Unizip the GraphHopper API file provided into the folder where are to run the scripts. 
   - Paste the new-york-latest.osm.pbf file in the same folder
   - Open command line in this folder
-  - run the Following command: **java -jar graphhopper-web-0.6.0-with-dep.jar jetty.resourcebase=webapp config=config-example.properties osmreader.osm=new-york_new-york.osm.pbf**
+  - run the Following command: **java -jar graphhopper-web-0.6.0-with-dep.jar jetty.resourcebase=webapp config=config-example.properties osmreader.osm=new-york.osm.pbf**
+  - It would take a couple of minutes to set up the server.
+  - You can view the server at "Localhost:8989"
   
 ### Pip Installations
   - Numpy Command: **python -m pip install numpy**
@@ -33,6 +35,8 @@
   - Set the start_date, start_time and end_time
   - Start the GraphHopper API by running the command as mentioned above
   - Uncomment the commented cell and run this cell only once for the respective time windows
+  - default values for db connection: Username: root, Pass: root, port: 3306
+  - If diffrent, Update the user name, password and port numbers for db connection throughout the file.
   - Run all the cells
   - Results are printed for each pool window
   
