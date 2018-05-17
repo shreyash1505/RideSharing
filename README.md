@@ -6,7 +6,7 @@ _Course Project of CS 581: Database Management Systems_
 
 ### About the Project
  - There are many advantages of having ridesharing service in place including monetary savings to the customers, increased revenue to the company and being eco-friendly with more number of customers opting for this service than to take a personal vehicle. 
- - However, the riders have rarely questioned about the quality of the rides that they have taken or they are about to take and neither did these companies have made a system available to the users which considers the preferences of their riders.<br>
+ - However, the riders have rarely questioned about the quality of the rides that they have taken or they are about to take and neither did these companies have made a system available to the users which considers the preferences of their riders.
  - Through this project we are trying to address that lacking concept of giving importance to **rider's social preferences** by proposing a model which allows riders to specify their expectation and characteristics about fellow riders with whom he/she shares a ride. We believe this will enhance the user experience and will encourage them to choose ride sharing more often.
  - Final report is made available for more details.
 
@@ -21,7 +21,7 @@ _Course Project of CS 581: Database Management Systems_
   - JSON wrapper for python
   - Numpy python package
   - CSV package for python
-  - New York City Map (in .pbf format)
+  - New York City Map (in .pbf format) [[click here to get](https://www.dropbox.com/s/ukqkcix1fq02lbf/new-york.osm.pbf)]
   
   ### pip Installations
   - **python.exe should be added to system path**
@@ -32,7 +32,7 @@ _Course Project of CS 581: Database Management Systems_
   
 ### GraphHopper Directions API Installation & Steps to Setup
   - Unzip **graphhopper-web-0.6.0-bin.zip** file provided into the folder where python scripts will be executed 
-  - Paste the **new-york-latest.osm.pbf** file in the same folder
+  - Download & paste the **new-york-latest.osm.pbf** file in the same folder
   - Open command line in this folder
   - Run the following command: **java -jar graphhopper-web-0.6.0-with-dep.jar jetty.resourcebase=webapp config=config-example.properties osmreader.osm=new-york.osm.pbf**
   - It may take a couple of minutes to set up the server
@@ -44,8 +44,8 @@ _Course Project of CS 581: Database Management Systems_
   
 ### DB Schema Creation & Data Import Steps
   - Open the schema_creation file provided in mysql wokbench
-  - Run to script to create the database and the tables within.
-  - Use the MySQL import command wizard to import csv files into the tables with same column names or import data by using **dataset_dump.sql** file
+  - Run to script to create the database and the tables within
+  - Use the MySQL import command wizard to import csv files into the tables with same column names or import data by using **dataset_dump.sql** file which can be found at - https://www.dropbox.com/s/adrustbxphuism2/dataset_dump.sql
   
 ### Exceution steps for both the notebooks
   - Set the start_date, start_time and end_time
