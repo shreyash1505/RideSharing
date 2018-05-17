@@ -1,4 +1,4 @@
-_Course Project of CS583: Database Management Systems_
+_Course Project of CS 581: Database Management Systems_
 =======================================================
 
 ### Instructor: [Prof. Ouri Wolfson](https://www.cs.uic.edu/k-teacher/ouri-wolfsonphd)
